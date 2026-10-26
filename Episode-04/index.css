@@ -1,0 +1,60 @@
+.header{
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid black;
+}
+
+.logo{
+   width: 100px;
+   border-radius: 75%;
+}
+
+.nav-items{
+   padding: 0px 20px;
+}
+
+.nav-items > ul {
+    font-size: 20px; 
+    display: flex; 
+    list-style-type: none; 
+}
+.nav-items > ul > li {
+   padding: 10px;
+   margin: 10px;
+}
+.res-container{
+   display: flex;
+   flex-wrap: wrap;
+}
+.res-card{
+   margin: 5px;
+   padding: 5px;
+   width: 200px;
+   /* height: 330px; */
+}
+.res-card:hover{
+   cursor:pointer;
+   border: 1px solid black;
+}
+
+.search{
+   padding: 10px;
+}
+
+.res-logo{
+   height: 130px;
+   width: 100%;
+}
+.heading{
+   color: brown;
+   text-align: center;
+}
+.heading h1{
+   margin-bottom: 5px;
+}
+.heading p{
+   margin-top: 0;
+   font-size: 16px;
+   color: #666;
+   font-style: italic;
+}

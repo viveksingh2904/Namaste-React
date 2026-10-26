@@ -16,12 +16,12 @@ const jsxHeading =(
     Namaste React Using JSX
   </h1> 
   )  //this is same as uppeer code from 6 to 10 using jsx
-
-/* Functonal component
-const Title = () =>(
+  
+ /*Functonal component
+ const Title = () =>(
   <h1 className="head"> Namaste React Componet Passing in other component</h1>
-)
-*/
+)*/
+
 //!React Functional Component  syntax
 const HeadingComponent = () =>(
   <div id="container">
